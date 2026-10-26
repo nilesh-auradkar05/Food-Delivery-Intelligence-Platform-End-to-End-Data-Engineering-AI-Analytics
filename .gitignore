@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+airflow/.env
+zomato/profiles.yml
+ai/.env
+# text-to-sql audit log (contains user questions)
+text_to_sql_audit.log
+snowflake_queries.txt
+review_embeddings.parquet
+zomato_pipeline/profiles.yml
+.user.yml
+
+logs/
+
+docs/zomato-ai-data-engineering-curriculum.pptx

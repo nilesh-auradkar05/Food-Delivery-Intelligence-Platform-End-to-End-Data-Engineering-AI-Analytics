@@ -1,0 +1,18 @@
+[project]
+name = "zomato-ai-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-snowflake>=1.12.3",
+    "openai>=3.37.0",
+    "python-dotenv>=1.2.4",
+    "sqlglot>=30.24.0",
+    "streamlit>=1.66.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
